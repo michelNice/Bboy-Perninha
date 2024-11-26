@@ -1,5 +1,5 @@
 import './css/App.css';
-import react ,{useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 import Background from './Components/Background/Background.jsx';
 import Navbar from './Components/Navbar/Navbar.jsx';
 import Hero from './Components/Hero/Hero.jsx';
@@ -38,8 +38,7 @@ function App() {
         
         <Parnership />
 
-         
-       <Gallery />
+        <Gallery />
 
         <Contact />
 
