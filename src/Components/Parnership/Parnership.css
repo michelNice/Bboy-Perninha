@@ -1,0 +1,31 @@
+.conteiner-parnership{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.parneshipImgs img{width: 350px;}
+
+.parneshipImgs p{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
+
+@media(max-width:600px){
+    
+    .parneshipImgs img{
+        width: 140px;
+        justify-content: center;
+        
+    }
+
+    .parneshipImgs p{
+        font-size: 0.7rem;
+        padding-bottom:1rem;
+    }
+    
+}
